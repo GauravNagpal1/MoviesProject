@@ -1,0 +1,18 @@
+<h1 style="text-align:center" id="tableLabel">Movies Details</h1><br /><br /><br />
+
+
+<p *ngIf="!movie"><em>Loading...</em></p>
+
+<div *ngIf="movie">
+
+    <h3>Title: {{ movie.title }}</h3><br />
+    <div><b>Language:</b> {{ movie.language }}</div><br />
+    <div><b>Location:</b> {{ movie.location }}</div><br />
+    <div><b>Plot:</b> {{ movie.plot }}</div><br />
+    <div><b>Poster:</b> {{ movie.poster }}</div><br />
+    <div><b>ListingType:</b> {{ movie.listingType }}</div><br />
+    <div><b>IMDB ID: </b>{{ movie.imdb_id }}</div><br />
+    <div><b>IMDB Rating: </b>{{ movie.imdbRating }}</div><br />
+
+</div>
+

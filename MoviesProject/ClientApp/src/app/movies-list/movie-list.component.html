@@ -1,0 +1,24 @@
+<h1 id="tableLabel">Movies List</h1>
+
+
+<p *ngIf="!movies"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="movies">
+    <thead>
+        <!-- <tr><td>
+            <select>Movies</select>
+        </td></tr> -->
+        <tr>
+            <th (click)="toggleSort()">Title ({{text}})</th>
+            <th>Language</th>
+            <th>IMDBRating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let movie of movies">
+            <td><a routerLink="/movieslist/detail/{{movie.id}}">{{ movie.title }}</a></td> 
+            <td>{{ movie.language }}</td>
+            <td>{{ movie.imdbRating }}</td>
+        </tr>
+    </tbody>
+</table>

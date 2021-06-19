@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gaurav/Projects/MoviesProj/MoviesProject/TestMoviesProject/TestMoviesProject.csproj": {}
+  },
+  "projects": {
+    "/Users/gaurav/Projects/MoviesProj/MoviesProject/MoviesProject/MoviesProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gaurav/Projects/MoviesProj/MoviesProject/MoviesProject/MoviesProject.csproj",
+        "projectName": "MoviesProject",
+        "projectPath": "/Users/gaurav/Projects/MoviesProj/MoviesProject/MoviesProject/MoviesProject.csproj",
+        "packagesPath": "/Users/gaurav/.nuget/packages/",
+        "outputPath": "/Users/gaurav/Projects/MoviesProj/MoviesProject/MoviesProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gaurav/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gaurav/Projects/MoviesProj/MoviesProject/TestMoviesProject/TestMoviesProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gaurav/Projects/MoviesProj/MoviesProject/TestMoviesProject/TestMoviesProject.csproj",
+        "projectName": "TestMoviesProject",
+        "projectPath": "/Users/gaurav/Projects/MoviesProj/MoviesProject/TestMoviesProject/TestMoviesProject.csproj",
+        "packagesPath": "/Users/gaurav/.nuget/packages/",
+        "outputPath": "/Users/gaurav/Projects/MoviesProj/MoviesProject/TestMoviesProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gaurav/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/gaurav/Projects/MoviesProj/MoviesProject/MoviesProject/MoviesProject.csproj": {
+                "projectPath": "/Users/gaurav/Projects/MoviesProj/MoviesProject/MoviesProject/MoviesProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
